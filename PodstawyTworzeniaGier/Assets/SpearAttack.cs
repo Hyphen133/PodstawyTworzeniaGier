@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class SpearAttack : MonoBehaviour {
 
+    int min = -1;
+    int max = 2;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -11,6 +14,6 @@ public class SpearAttack : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        transform.Rotate(new Vector3(0,0,5*Time.deltaTime));
-	}
+        transform.Translate(new Vector3());
+    }
 }
